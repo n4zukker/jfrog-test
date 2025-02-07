@@ -1,0 +1,11 @@
+name: Test jfrog cli
+on:
+  workflow_dispatch:
+
+jobs:
+  cli:
+    runs-on: ubuntu-latest
+
+    steps:
+      -
+        uses: 'jfrog/setup-jfrog-cli@v4'
