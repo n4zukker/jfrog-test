@@ -12,5 +12,5 @@ jobs:
         env:
           JF_URL: 'https://host.invalid'
           JF_ACCESS_TOKEN: '123'
-        with:
-          download-repository: 'jfrog-cli-remote'
+#        with:
+#          download-repository: 'jfrog-cli-remote'
