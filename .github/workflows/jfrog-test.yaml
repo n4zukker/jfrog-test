@@ -10,7 +10,7 @@ jobs:
       -
         uses: 'jfrog/setup-jfrog-cli@v4'
         env:
-          JF_URL: 'foobar'
+          JF_URL: 'https://host.invalid'
           JF_ACCESS_TOKEN: '123'
         with:
           download-repository: 'jfrog-cli-remote'
